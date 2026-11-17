@@ -159,7 +159,6 @@
   <project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" />
   <project path="hardware/lineage/generic-ims" remote="lineage" name="android_hardware_lineage_generic-ims" />
   <project path="hardware/lineage/interfaces" remote="lineage" name="android_hardware_lineage_interfaces" />
-  <project path="lineage-sdk" remote="lineage" name="android_lineage-sdk" />
   <project path="packages/apps/Aperture" remote="lineage" name="android_packages_apps_Aperture" />
   <project path="packages/apps/AudioFX" remote="lineage" name="android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" remote="lineage" name="android_packages_apps_Backgrounds" />
@@ -175,8 +174,6 @@
   <project path="packages/apps/Gallery2" remote="lineage" name="android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/Glimpse" remote="lineage" name="android_packages_apps_Glimpse" />
   <project path="packages/apps/Jelly" remote="lineage" name="android_packages_apps_Jelly" />
-  <project path="packages/apps/LineageCustomizer" remote="lineage" name="android_packages_apps_LineageCustomizer" />
-  <project path="packages/apps/LineageParts" remote="lineage" name="android_packages_apps_LineageParts" />
   <project path="packages/apps/Profiles" remote="lineage" name="android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" remote="lineage" name="android_packages_apps_Recorder" />
   <project path="packages/apps/Seedvault" remote="lineage" name="android_packages_apps_Seedvault" />
@@ -184,12 +181,10 @@
   <project path="packages/apps/SimpleDeviceConfig" remote="lineage" name="android_packages_apps_SimpleDeviceConfig" />
   <project path="packages/apps/SimpleSettingsConfig" remote="lineage" name="android_packages_apps_SimpleSettingsConfig" />
   <project path="packages/apps/Twelve" remote="lineage" name="android_packages_apps_Twelve" />
-  <project path="packages/apps/Updater" remote="lineage" name="android_packages_apps_Updater" />
   <project path="packages/resources/devicesettings" remote="lineage" name="android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" remote="lineage" name="android_prebuilts_extract-tools" clone-depth="1" />
   <project path="tools/extract-utils" remote="lineage" name="android_tools_extract-utils" />
   <project path="vendor/apn" remote="lineage" name="android_vendor_apn" revision="main" />
-  <project path="vendor/crowdin" remote="lineage" name="android_vendor_crowdin" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
