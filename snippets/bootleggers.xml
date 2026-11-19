@@ -16,6 +16,8 @@
     <project path="build/soong" remote="bootleggers" name="build_soong" groups="pdk,tradefed,sysui-studio" />
     <project path="frameworks/base" remote="bootleggers" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
     <project path="manifest" remote="bootleggers" name="manifest" />
+    <project path="packages/apps/Dialer" remote="bootleggers" name="packages_apps_Dialer" groups="pdk-fs" />
+    <project path="packages/apps/FlipFlap" remote="bootleggers" name="packages_apps_FlipFlap" />
     <project path="packages/apps/Launcher3" remote="bootleggers" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
     <project path="packages/apps/Settings" remote="bootleggers" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
     <project path="packages/apps/SetupWizard" remote="bootleggers" name="packages_apps_SetupWizard" />
