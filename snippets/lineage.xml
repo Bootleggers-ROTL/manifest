@@ -10,7 +10,6 @@
   <project path="bionic" remote="lineage" name="android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" remote="lineage" name="android_bootable_deprecated-ota" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" />
   <project path="bootable/recovery" remote="lineage" name="android_bootable_recovery" groups="pdk" />
-  <project path="build/soong" remote="lineage" name="android_build_soong" groups="pdk,tradefed,sysui-studio" />
   <project path="development" remote="lineage" name="android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="device/generic/car" remote="lineage" name="android_device_generic_car" groups="pdk" />
   <project path="device/generic/common" remote="lineage" name="android_device_generic_common" groups="pdk" />
@@ -129,8 +128,6 @@
   <project path="trusty/user/base" remote="lineage" name="android_trusty_user_base" groups="trusty,pdk" />
 
   <!-- LineageOS additions -->
-  <project path="art" remote="lineage" name="android_art" groups="pdk" />
-  <project path="bionic" remote="lineage" name="android_bionic" groups="pdk" />
   <project path="device/lineage/atv" remote="lineage" name="android_device_lineage_atv" />
   <project path="device/lineage/car" remote="lineage" name="android_device_lineage_car" />
   <project path="device/lineage/sepolicy" remote="lineage" name="android_device_lineage_sepolicy" />
