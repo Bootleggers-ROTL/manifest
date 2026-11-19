@@ -12,7 +12,7 @@
            review="android-review.googlesource.com" />
 
   <default revision="refs/tags/android-17.0.0_r1"
-           remote="github"
+           remote="aosp"
            sync-c="true"
            sync-j="8" />
 
